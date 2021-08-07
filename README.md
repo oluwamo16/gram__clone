@@ -1,2 +1,2 @@
 # gram__clone
-gram clone with nextjs w
+gram clone with nextjs
