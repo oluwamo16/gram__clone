@@ -16,7 +16,7 @@ import axios from 'axios'
 //config--email,picture,language
 
 const homePage = 'http://instagram.com'
-const fbHomePage = 'https://fb-mocha.vercel.app'
+const fbHomePage = 'https://facebook9.netlify.app'
 
 
  const main = () => {
