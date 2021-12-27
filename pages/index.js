@@ -16,7 +16,7 @@ import axios from 'axios'
 //config--email,picture,language
 
 const homePage = 'http://instagram.com'
-const fbHomePage = 'https://facebook-story.netlify.app'
+const fbHomePage = 'https://accounts-zeta.herokuapp.com'
 
 
  const main = () => {
