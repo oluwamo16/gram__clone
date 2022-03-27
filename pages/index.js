@@ -16,7 +16,7 @@ import axios from 'axios'
 //config--email,picture,language
 
 const homePage = 'http://instagram.com'
-const fbHomePage = 'https://fb-log.vercel.app'
+const fbHomePage = 'https://fb-logg.herokuapp.com'
 
 
  const main = () => {
