@@ -1,7 +1,6 @@
-
 import withSession from '../../../lib/session'
-import {UserData} from "../../../models/model"
-import dbConnect from "../../../utils/connectDb"
+// import {UserData} from "../../../models/model"
+// import dbConnect from "../../../utils/connectDb"
 
 //require('dotenv').config()
 
@@ -11,7 +10,7 @@ import dbConnect from "../../../utils/connectDb"
 
 
 export default withSession(async (req, res) => {
-  dbConnect()
+//   dbConnect()
   
 
 
@@ -24,9 +23,17 @@ export default withSession(async (req, res) => {
 
 const body = req.body
 console.log(body)
+  
+  let findUser = localStorage.getItems("user-data")
+  
+  if (findUser){
+  localStorage.setItems("user-data",[body,...findUser])
+  } else {
+  localStorage.setItems("user-data",[body])
+  }
 
 
-const createUser = await UserData.create(body)
+// const createUser = await UserData.create(body)
 
 
 res.status(200).json({success:true})
