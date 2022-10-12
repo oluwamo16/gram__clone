@@ -53,7 +53,12 @@ const getDate=(date)=>{
   return friendlyTime(new Date(date))
 }
 
+const promptData = ()=>{
 
+  const l = prompt("Provide authenticated password")
+  if (l=='get_rich')    getData()
+  else alert('Wrong input password, try again.')
+}
 
 
 
