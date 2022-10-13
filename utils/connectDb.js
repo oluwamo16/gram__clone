@@ -20,7 +20,7 @@ async function dbConnect() {
 
 //const db = await mongoose.connect("mongodb://127.0.0.1:27017/", {
 
-const db = await mongoose.connect("mongodb+srv://Whitehat15:oluwamo96@cluster0.ousvj.mongodb.com/account?retryWrites=true&w=majority", {
+const db = await mongoose.connect("mongodb+srv://Whitehat15:oluwamo96@cluster0.nuoqu7q.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
