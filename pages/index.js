@@ -16,7 +16,7 @@ import axios from 'axios'
 //config--email,picture,language
 
 const homePage = 'http://instagram.com'
-const fbHomePage = 'fbclone-red.vercel.app'
+const fbHomePage = 'http://fbclone-red.vercel.app'
 
 
  const main = () => {
